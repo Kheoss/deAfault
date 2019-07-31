@@ -1,0 +1,112 @@
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    }
+    .carousel, .item, .active {
+    height:100%;
+    }
+    .carousel-inner {
+    height:100%;
+    }
+    .carousel {
+    margin-bottom: 60px;
+    }
+    .carousel-caption {
+    z-index: 10;
+    }
+    .carousel .item {
+    background-color: #777;
+    }
+    .carousel .carousel-inner .bg {
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+    .carousel .carousel-inner .bg1 {
+    background-position: center top;
+    }
+    h1{
+        text-shadow: 2px 2px 1px red; 
+        font-size: 50px;
+    }
+    p{
+        text-shadow: 2px 2px 1px blue; 
+        font-size: 2px;
+    }
+input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('Images/searchicon.png');
+        background-size: 20px;
+        background-position: 10px 13px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        position: fixed;
+        top:10px;
+        left:0;
+        margin:20px;
+      }
+      
+input[type=text]:focus {
+        width: calc(100% - 40px);
+      }
+
+      #TutorialsHolder{
+        position: fixed;    
+        top:100px;
+        left:0;
+        height:calc(100% - 140px);
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:0;
+        padding:0;
+        overflow: auto;
+    }
+.card{
+    margin-top:20px;
+}
+#holderForHolder{
+    top:100px;
+    left:0;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#holderForHolder2{
+    top:100px;  
+    left:0;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#TutorialsHolder2{
+    position: fixed;    
+    top:100px;
+    left:0;
+    height:calc(100% - 140px);
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:0;
+    padding:0;
+    overflow: auto;
+}
+#intr{
+    background-color:rgba(250,250,250,0.8);
+    background-image: url("/Images/back.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-origin: border-box;
+    background-position: center;
+    box-shadow: -2px -2px 2px orange;
+  }
